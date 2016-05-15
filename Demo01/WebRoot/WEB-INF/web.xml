@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyFirstServlet</servlet-name>
+    <servlet-class>servlet.MyFirstServlet</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ImportExcel</servlet-name>
+    <servlet-class>servlet.ImportExcel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchInfo</servlet-name>
+    <servlet-class>servlet.SearchInfo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FenyeServlet</servlet-name>
+    <servlet-class>servlet.FenyeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ExportExcelServlet</servlet-name>
+    <servlet-class>servlet.ExportExcelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TuBiaoServlet</servlet-name>
+    <servlet-class>servlet.TuBiaoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FenleiQueryServlet</servlet-name>
+    <servlet-class>servlet.FenleiQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchByXiangZhengAndNianfen</servlet-name>
+    <servlet-class>servlet.SearchByXiangZhengAndNianfen</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>XiugaiServlet</servlet-name>
+    <servlet-class>servlet.XiugaiServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PrintAnjuanfengmianServlet</servlet-name>
+    <servlet-class>servlet.PrintAnjuanfengmianServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginCheckServlet</servlet-name>
+    <servlet-class>servlet.LoginCheckServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ChaYueServlet</servlet-name>
+    <servlet-class>servlet.ChaYueServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CharuChayueServlet</servlet-name>
+    <servlet-class>servlet.CharuChayueServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>MyFirstServlet</servlet-name>
+    <url-pattern>/servlet/MyFirstServlet</url-pattern>
+  </servlet-mapping>
+  
+   <servlet-mapping>
+    <servlet-name>ImportExcel</servlet-name>
+    <url-pattern>/servlet/ImportExcel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchInfo</servlet-name>
+    <url-pattern>/servlet/SearchInfo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FenyeServlet</servlet-name>
+    <url-pattern>/servlet/FenyeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ExportExcelServlet</servlet-name>
+    <url-pattern>/servlet/ExportExcelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TuBiaoServlet</servlet-name>
+    <url-pattern>/servlet/TuBiaoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FenleiQueryServlet</servlet-name>
+    <url-pattern>/servlet/FenleiQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchByXiangZhengAndNianfen</servlet-name>
+    <url-pattern>/servlet/SearchByXiangZhengAndNianfen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>XiugaiServlet</servlet-name>
+    <url-pattern>/servlet/XiugaiServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PrintAnjuanfengmianServlet</servlet-name>
+    <url-pattern>/servlet/PrintAnjuanfengmianServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginCheckServlet</servlet-name>
+    <url-pattern>/servlet/LoginCheckServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ChaYueServlet</servlet-name>
+    <url-pattern>/servlet/ChaYueServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CharuChayueServlet</servlet-name>
+    <url-pattern>/servlet/CharuChayueServlet</url-pattern>
+  </servlet-mapping>
+  	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

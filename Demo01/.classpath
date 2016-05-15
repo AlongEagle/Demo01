@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/classes12.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-2.5.1-final-20040804.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-3.9-20121203.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/junit-3.8.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-examples-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-excelant-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-ooxml-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-ooxml-schemas-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/poi-scratchpad-3.8-20120326.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/stax-api-1.0.1.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="lib" path="E:/jar包/lib/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="E:/jar包/lib/lib/commons-collections-3.0.jar"/>
+	<classpathentry kind="lib" path="E:/jar包/lib/lib/commons-lang-2.1.jar"/>
+	<classpathentry kind="lib" path="E:/jar包/lib/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="E:/jar包/lib/lib/ezmorph-1.0.2.jar"/>
+	<classpathentry kind="lib" path="E:/jar包/lib/lib/json-lib-1.1-jdk13.jar"/>
+	<classpathentry kind="lib" path="E:/jar包/lib/lib/xom-1.0d10.jar"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>
